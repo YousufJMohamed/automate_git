@@ -1,5 +1,5 @@
 #!/bin/sh
-cd /home/ubuntu/Desktop/dailylogs
+cd /home/divya/tact/Dailylogs
 git add .
 echo "added"
 git commit -m "Updates for $(date +%F)"

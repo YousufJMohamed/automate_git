@@ -7,7 +7,7 @@ import subprocess
 
 
 app = Flask(__name__)
-
+PORT = 4005
 
 @app.route("/", methods =["GET","POST"])
 def index():
@@ -42,4 +42,4 @@ echo "pushed"
 
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(debug=True,host="0.0.0.0", port=PORT)
