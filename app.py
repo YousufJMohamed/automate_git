@@ -35,7 +35,7 @@ git push
 echo "pushed"
         ''')
         req_file.close()
-        subprocess.run("bash git.sh", shell=True, check=True)
+        subprocess.run("git.sh", shell=True, check=True)
     return render_template("added.html")
 	
 
