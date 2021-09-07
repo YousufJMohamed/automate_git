@@ -12,12 +12,6 @@ PORT = 4005
 @app.route("/", methods =["GET","POST"])
 def index():
 	return render_template("index.html",title="Automate git push")
-
-
-
-
-
-
 # getting input with name = Monday in HTML form 
 @app.route('/getdetails', methods =["GET", "POST"])
 def gfg():
