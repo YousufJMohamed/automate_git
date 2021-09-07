@@ -3,9 +3,6 @@ import subprocess
   
 
 
-
-
-
 app = Flask(__name__)
 PORT = 4005
 
